@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th img {
+  width: 14px;
+  height: 14px;
+}
+
+.ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  @apply block mb-2 text-start text-sm font-medium text-gray-900;
+}
+
+.form-input {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5;
+}
+
+button {
+  @apply text-white bg-blue-700 w-full font-medium rounded-lg text-sm px-5 py-2.5 mb-2 block;
+}
+
+select {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5;
+}
+
+.ant-drawer-header-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.ant-drawer-header-title button {
+  width: 20px;
+  padding-top: 20px;
+}
+
+
